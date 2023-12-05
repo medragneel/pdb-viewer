@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 300px ;
+    place-items: center;
+}
+.mol-container {
+  margin-top: 8rem;
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+.controls{
+    background-color: #161A30;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 9px ;
+    color: beige;
+}
+.f-molecule{
+    width:40%;
+    margin-left: 1em;
+    padding: 0.5em;
+    color:#333;
+}
+.pdb-file{
+    width: 80%;
+    padding: 0.5em;
+}
+.fetch-btn{
+    border: none;
+    padding: 0.5em 0.75em;
+}
+input[type='range'].zoom{
+    -webkit-appearance: auto;
+    accent-color: #333;
+    padding: 0.1em;
+}
+.zoom-container{
+
+    position: fixed;
+    bottom: 0.25em;
+    left: 0.25em;
+    display: flex;
+    gap:0.5em;
+
+}
